@@ -1,4 +1,4 @@
-# 🎆 python basnch 
+# 🎆 python banch 
 ----
 
 This is my whole python learnear track. i post al my python work . updatw will bw coming soon ......
