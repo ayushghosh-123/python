@@ -1,7 +1,7 @@
 # 🎆 python banch 
 ----
 
-This is my whole python learnear track. i post al my python work . updatw will bw coming soon ......
+This is my whole python learnear track. I post all my python work . update will be coming soon ......
 
 ----
 # HOW TO USE -
