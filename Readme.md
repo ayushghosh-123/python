@@ -15,4 +15,4 @@ git clone https://github.com/ayushghosh-123/python.git
 
 2. run the code in your system code editor
 
-# KEEP CODING , KEEP GROWING  🛩️
+# KEEP CODING , KEEP GROWING  🛩️asics
