@@ -1,0 +1,5 @@
+Hello, this is my first file.
+Python makes file handling easy.
+Learning how to handle files in python.
+Appending a new line to the file.
+File handling is an essential skill.

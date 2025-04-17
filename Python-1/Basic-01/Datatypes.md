@@ -1,4 +1,5 @@
 # Object Types / Data Types:
+----
 
 - Numbers : 1234 , 3.1415 , 3+4j, 0b11, Decimal(), Fraction ()
 - String : 'spam', "Bob's" , b'a\x1c , u 'sp\xc4m
