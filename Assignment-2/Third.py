@@ -12,5 +12,3 @@ height = float(input("Enter your height in meters: "))
 bmi = calculate_bmi(weight, height)
 
 print(f"Your BMI is {bmi:.2f}")
-if bmi < 18.5:
-    print("You are underweight.")

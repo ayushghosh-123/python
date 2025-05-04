@@ -1,6 +1,9 @@
-user_input = input("enter your input value: ")
+def is_palindrome(text):
+    text = text.replace(" ", "").lower()
+    if text == text[::-1]:
+        print("The string is a palindrome.")
+    else:
+        print("The string is not a palindrome.")
 
-word = user_input.split()
-reverse_sentence = ' '.join(reversed(word))
-
-print("reverse sentence is :", reverse_sentence)
+value = input("Enter a string: ")
+is_palindrome(value)
