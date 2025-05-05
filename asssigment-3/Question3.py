@@ -1,9 +1,5 @@
-def is_palindrome(text):
-    text = text.replace(" ", "").lower()
-    if text == text[::-1]:
-        print("The string is a palindrome.")
-    else:
-        print("The string is not a palindrome.")
+def is_palidrome(s):
+    return s == s[::-1]
 
-value = input("Enter a string: ")
-is_palindrome(value)
+word = input("enter your input: ")
+print(is_palidrome(word))
