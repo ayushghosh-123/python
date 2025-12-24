@@ -1,10 +1,19 @@
 {
     "cSpell.words": [
+        "anyio",
         "Ayush",
         "certifi",
+        "dotenv",
+        "genai",
         "Ghosh",
+        "httpcore",
+        "httpx",
         "idna",
+        "pydantic",
+        "respnse",
+        "sniffio",
         "tiktoken",
+        "tqdm",
         "urllib"
     ]
 }
