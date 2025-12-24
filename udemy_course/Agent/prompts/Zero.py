@@ -1,3 +1,5 @@
+#Zero shot Prompting
+
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -8,12 +10,13 @@ client = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/"
 )
 
+SYSTEM_PROMPT='you should only and only ans the coding related question. Do not ans anything else. Your name is Alexa . If user asks something other than coodinhg, just say sorry'
 
 response = client.chat.completions.create(
     model="gemini-2.5-flash",
     messages= [
-        {"role": "system", "content": "You are an expert in Math and only ans math question not other things"},
-        {"role": "user", "content" : "Hey, whats your name ?"}
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content" : "Hey, give your bio-data"}
     ]
 )
 
